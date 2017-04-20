@@ -1,0 +1,69 @@
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+
+.TeaLogo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav {
+
+  text-align: right;
+  flex-grow: 1;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.container {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+
+div {
+    display: block;
+}
+
+/*pushes the text to center and reformats the size*/
+
+body {
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+}
+
+.mission {
+  height: 700px;
+      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+      padding-top: 70px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  .mission .content {
+        margin: auto;
+        background-color: black;
+        width: 100%;
+    }
+  
